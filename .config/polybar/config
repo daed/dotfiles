@@ -1,0 +1,32 @@
+;=====================================================
+;     File Includes
+;=====================================================
+
+[section/base]
+include-file = /home/brad/.config/polybar/master.conf
+include-file = /home/brad/.config/polybar/modules.conf
+
+
+;=====================================================
+;     Openbox Bars
+;=====================================================
+
+[bar/openbox-bar]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor = DP-3
+
+modules-left   = jgmenu workspaces mpd
+modules-center =
+modules-right  = temperature pkg network volume clock
+
+[bar/openbox-bar2]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor = DP-1
+
+modules-left   = workspaces mpd
+modules-center =
+modules-right  = temperature pkg network volume clock

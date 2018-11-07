@@ -1,0 +1,5 @@
+colors.scheme=bluepunk
+visualizer.spectrum.smoothing.mode=sgs
+visualizer.spectrum.bar.width=1
+visualizer.spectrum.falloff.mode=fill
+visualizer.spectrum.bar.spacing=1

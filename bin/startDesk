@@ -1,0 +1,41 @@
+#!/bin/sh
+
+if test $# -lt 2
+then
+    echo "Usage: startDesk <desktop> <command> [<command args>...]" 1>&2
+    exit 2
+fi
+
+desktop=$1
+shift
+"$@"&
+pid=$!
+echo $pid
+tries=100
+sleeptime=0.1
+while test $tries -gt 0
+do
+    sleep $sleeptime
+    windows=$(wmctrl -l -p)
+    while read _id _desktop _pid _rest
+    do
+        _ppid=$(ps -o ppid= -p $_pid)
+        echo $_ppid
+        if test "$_pid" = "$pid" -o "$_ppid" = "$pid"
+        then
+            id=$_id
+            break 2
+        fi
+    done <<EOF
+$windows
+EOF
+    tries=$((tries - 1))
+done
+if test -n "$id"
+then
+    wmctrl -i -r "$id" -t "$desktop"
+    exit $?
+else
+    echo "Window not found" 1>&2
+    exit 1
+fi

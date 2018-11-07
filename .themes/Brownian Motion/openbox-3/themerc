@@ -1,0 +1,91 @@
+!! http://ebupof.deviantart.com
+
+!! menu title
+menu.title.bg:           flat vertical gradient
+menu.title.bg.color:     #444
+menu.title.bg.colorTo:   #333
+#window.active.label.text.font: shadow=y:shadowtint=100:shadowoffset=1
+#window.inactive.label.text.font: shadow=y:shadowtint=50:shadowoffset=1
+#menu.items.font: shadow=y:shadowtint=-100:shadowoffset=1
+#menu.title.text.font: shadow=y:shadowtint=100:shadowoffset=1
+#osd.label.text.font: shadow=y:shadowtint=-100:shadowoffset=1
+menu.title.text.color:#787878
+menu.title.text.justify: center
+menu.separator.padding.width: 10
+menu.separator.padding.height: 3
+menu.separator.color:#aaaaaae
+menu.border.color: #170f0d
+menu.border.width: 1
+
+!! menu items
+menu.items.bg: flat solid 
+menu.items.bg.color:#2C2320
+menu.items.text.color:#AB9234
+menu.items.justify: left
+menu.items.disabled.text.color: #997744
+menu.items.active.bg.color:#AB9234
+menu.items.active.bg.colorTo:#AB9234
+menu.items.active.text.color:#2C2320
+menu.items.active.bg: flat vertical gradient
+
+
+!! window title
+window.active.title.bg: flat vertical gradient
+window.active.title.bg.color: #EBEBEB
+window.active.title.bg.colorTo: #CFCFCF
+window.active.title.bg.shadow: 0
+
+window.inactive.title.bg: flat vertical gradient
+window.inactive.title.bg.color:  #EBEBEB
+window.inactive.title.bg.colorTo:  #CFCFCF
+window.inactive.title.bg.shadow: 0
+
+!! window text
+window.label.text.justify: center
+window.active.label.bg: parentrelative
+window.active.label.text.color:#787878
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #B3B3B3
+
+window.active.title.separator.color:  #CFCFCF
+window.inactive.title.separator.color: #CFCFCF
+
+!! window buttons
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #A3A3A3
+
+
+window.active.button.pressed.bg: parentrelative
+window.active.button.pressed.image.color: #ccc
+
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #768FA7
+
+
+window.active.button.hover.bg: parentrelative
+window.active.button.hover.image.color: #787878
+
+
+window.active.button.toggled.bg: parentrelative
+window.active.button.toggled.image.color: #ffffff
+
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #A3A3A3
+
+
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.image.color: #ccc
+
+
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #768FA7
+
+
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.hover.image.color: #787878
+
+
+window.inactive.button.toggled.bg: parentrelative
+window.inactive.button.toggled.image.color: #e5e5e5

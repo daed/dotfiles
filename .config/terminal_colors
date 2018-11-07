@@ -1,0 +1,38 @@
+Current
+------------------------------------------------------------------------------------
+
+				Text		Background
+
+Default color: 	#E2DCCC		#25232A
+Bold color:		#E6B8E1
+
+
+
+Palette: Custom	#332D35	#4D4163	#67548F	#7D6297	#9671A0	#AD7FA8	#C8AFBA	#E2DCCC
+				#483F4A	#706482	#9888B9	#AD9CC3	#C6B4D0	#DDCADB #EFE5EE	#E2DCCC
+
+
+Initial Terminal size: 80 columns, 23 rows
+Font: xos4 Terminus Regular 9
+
+
+OLD
+-------------------------------------------------------------------------------------
+
+				Text		Background
+
+Default color: 	#AB9234		#2C2320
+Bold color:		#A9B386
+
+
+
+Palette: Custom	#494541	#8D4B4B	#027C5C	#997744	#777E28	#544B77	#4E5F4C	#E2DCCC
+				#456F82	#D3716E	#586E75	#657B83	#A1A753	#64569D #AB9234	#E2DCCC
+
+
+Initial Terminal size: 80 columns, 23 rows
+Font: xos4 Terminus Regular 9
+
+
+
+
