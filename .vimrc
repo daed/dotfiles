@@ -26,7 +26,7 @@ map <Space> ,
 " ------ enable additional features ------
 
 " enable mouse
-set mouse=a
+set mouse-=a
 if has('mouse_sgr')
     " sgr mouse is better but not every term supports it
     set ttymouse=sgr
